@@ -14,6 +14,7 @@
 
   <modules>
     <module>kotlin</module>
+    <module>tornadofx</module>
   </modules>
 
 </project>
