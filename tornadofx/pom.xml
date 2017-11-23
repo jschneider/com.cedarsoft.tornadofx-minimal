@@ -25,6 +25,18 @@
       <groupId>no.tornado</groupId>
       <artifactId>tornadofx</artifactId>
       <version>1.7.12</version>
+
+      <exclusions>
+        <exclusion>
+          <groupId>org.glassfish</groupId>
+          <artifactId>javax.json</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.jetbrains.kotlin</groupId>
+          <artifactId>kotlin-reflect</artifactId>
+        </exclusion>
+      </exclusions>
+
     </dependency>
   </dependencies>
 
